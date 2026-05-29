@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Janicka Akim | Full Gallery</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="macamPortStyling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600|Playfair+Display:700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="mainHeader">
+        <div class="headerContainer">
+            <div class="logoContainer">
+                <a href="index.html#homePage">
+                    <img src="Pictures/janickaLogoTransparent.png" alt="Janicka Akim">
+                </a>
+            </div>
+            <nav class="naviBarContainer">
+                <ul>
+                    <li><a href="index.html#homePage">ABOUT ME</a></li>
+                    <li><a href="#" class="highlight">PROJECTS</a></li>
+                    <li><a href="index.html#contactPage">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="worksContainer">
+        <div class="workCompiContainer">
+            <h2>Full Project Portfolio Gallery</h2>
+            <p class="sectionSub">
+                Welcome to my complete historical archive of development environments, creative assets, and student projects. Click on the categories below to filter my work.
+            </p>
+            
+            <div class="filterTabsContainer">
+                <button class="filterBtn active" data-filter="all">All Works</button>
+                <button class="filterBtn" data-filter="projects">Project Development</button>
+                <button class="filterBtn" data-filter="multimedia">Multimedia & Art</button>
+                <button class="filterBtn" data-filter="pubmat">PLV-VTHK Pubmats</button>
+            </div>
+            
+            <div class="subjectGrid">
+                
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('Bawat Tala', 'Capstone Project', 'Pictures/bawatTalaPreview.jpg', 'A gamified journaling application tailored specifically for the students of PLV to promote mental well-being through interactive tracking.<br><br><b>Role/s:</b> QA Tester, Documentation Lead, Assist in UI Interface.<br>You can download here: <a href=\'https://bawattalapro.online/?fbclid=IwY2xjawSEq1RleHRuA2FlbQIxMABicmlkETFVNDI0b3d3QzQwdUNHMHRYc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmaF8J1UdfeA5HSiaxvxB6J7hvdZ_ZgeYiFwH3hfANqumRiVBMh-b2r2pWAV_aem_vj6etcnFmzBEOtpfCJg6xg\' target=\'_blank\' class=\'modalInlineLink\'>Bawat Tala App</a>', 'https://bawat-tala-mobile.vercel.app/', 'https://drive.google.com/file/d/1EnSelfG54zLoCCNv39IOcDDhT28JPj7o/view?usp=sharing', 'Visit Project', 'View App Advertisement')">
+                    <div class="subjectIcon"><i class="fas fa-book-open"></i></div>
+                    <h3>Bawat Tala</h3>
+                    <p>A gamified journaling application tailored specifically for the students of PLV to promote mental well-being.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('GoVoice', 'Software Development', 'Pictures/goVoicePreview.jpg', 'An ARTA Customer Satisfaction Survey System, engineered using C# within Visual Studio 2022, proposed to streamline public feedback collection in Valenzuela City.<br><br><b>Role/s:</b> QA Tester, Documentation Lead.', 'https://customer-satisfaction-survey-app.onrender.com/', 'https://drive.google.com/file/d/1o901Rnb4dWticZocljKhWTDmdI00KuGx/view?usp=drive_link', 'Visit Project', 'View App Advertisement')">
+                    <div class="subjectIcon"><i class="fas fa-poll"></i></div>
+                    <h3>GoVoice</h3>
+                    <p>ARTA Customer Satisfaction Survey System using C# in Visual Studio 2022.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('Barikada Tabletop Game', 'Game Development', 'Pictures/barikadaTablePreview.jpg', 'A unique, Filipino-themed tabletop board game showcasing tactical mechanics rooted deeply in local cultural concepts.<br><br><b>Role/s:</b> Project Manager/Project Lead.<br>You can visit Fandom Wiki Here: <a href=\'https://barikada.fandom.com/wiki/Barikada_Wiki\' target=\'_blank\'><b>Barikada Wiki</b></a>', 'https://drive.google.com/drive/folders/1qUUIKtBoF_atP7aBUgRTBVIAsAE05rKj?usp=sharing', 'https://drive.google.com/file/d/1hvXqDe6iIkgZrA85kgi9-I2ZKHWmQNTu/view?usp=drive_link', 'View Compilation', 'View Demoreel')">
+                    <div class="subjectIcon"><i class="fas fa-dice"></i></div>
+                    <h3>Barikada Tabletop Game</h3>
+                    <p>A Filipino themed tabletop game showcasing tactical mechanics root in local concepts.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('Accord Slasher Film', 'Game Development', 'Pictures/accordPreview.jpg', 'A horror slasher game utilizing a distinct stop-motion aesthetic concept, developed with C# inside the Unity Engine.<br><br><b>Role/s:</b> Project Manager/Project Lead, Director (Game Filming).<br>You can Download Here: <a href=\'https://toneecru.itch.io/accord\'><b>Accord</b></a>', 'https://drive.google.com/drive/folders/1j2FwIFIq28XM0m8sKviBTNeKsh0pgZ4O?usp=drive_link', '#', 'View Compilation', '')">
+                    <div class="subjectIcon"><i class="fas fa-ghost"></i></div>
+                    <h3>Accord Slasher Film</h3>
+                    <p>A slasher film game with stop motion concept using C# in Unity.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('Barikada: Nations Unite Spinoff', 'Game Development', 'Pictures/barikadaNationsPreview.jpg', 'A mobile digital spinoff of the Filipino-themed tabletop game, built from the ground up using C# and Unity.<br><br><b>Role/s:</b> Project Manager/Project Lead.<br>You can Download Here: <a href=\'https://toneecru.itch.io/barikada-nations-unite\'><b>Barikada:Nations Unite</b></a>', 'https://drive.google.com/drive/folders/1JRgm3ADTFkSmAkLo_DhaYutgS1-RJbJK?usp=drive_link', 'https://drive.google.com/file/d/1Tx9L3wDTYjc3YisChvA74TKwp-ft6809/view?usp=drive_link', 'View Compilation', 'View Demoreel')">
+                    <div class="subjectIcon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Barikada: Nations Unite Spinoff</h3>
+                    <p>A spinoff mobile version of the Filipino themed tabletop game using C# in Unity.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('JELO Handicrafts Store Website', 'Web Development', 'Pictures/jeloWebPreview.jpg', 'A centralized e-commerce web platform for browsing and purchasing custom crochet items, powered by HTML, CSS, JavaScript, and MS SQL.<br><br><b>Role/s:</b> UI Designer, Documentation Lead', 'https://drive.google.com/drive/folders/1w8m-_gc9U5GSJjDHVl6RalyTF5lpwNEP?usp=drive_link', 'https://drive.google.com/file/d/1OeKBwaY-M-XGkgEoMmmzFkMdou5v9mwI/view?usp=drive_link', 'View Compilation', 'Sample Video')">
+                    <div class="subjectIcon"><i class="fas fa-shopping-bag"></i></div>
+                    <h3>JELO Handicrafts Store Website</h3>
+                    <p>A centralized website for crochet items to view and purchase using web development techstacks.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="projects" onclick="openProjectModal('Buhay Estudyante', 'Game Development', 'Pictures/buhayEstudyantePreview.jpg', 'A short, narrative-driven 2D pixel game structured strictly around Object-Oriented Programming core principles using Java.<br><br><b>Role/s:</b> Game Tester, Asset Customization Assistant.', 'https://drive.google.com/drive/folders/194w1_s8pEnHTDuih8-obHSb44eLK2o3v?usp=drive_link', 'https://drive.google.com/file/d/1KGM9UWa4cPl-e0o6YnTRzfC8Lomsco1o/view?usp=drive_link', 'View Compilation', 'View Demoreel')">
+                    <div class="subjectIcon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Buhay Estudyante</h3>
+                    <p>A short pixelated game developed with principles of OOP using java.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="multimedia" onclick="openProjectModal('Multimedia Systems 1 Activities', 'Multimedia', 'Pictures/multimediaPreview.jpg', 'Collection of activities made during multimedia class including graphic design work, audio production, and layout composition.', 'https://drive.google.com/drive/folders/1aYihI1f3rsxSorYEwqpmzbU77anLhkmv?usp=drive_link', '#', 'View Edits', '')">
+                    <div class="subjectIcon"><i class="fas fa-photo-video"></i></div>
+                    <h3>Multimedia Systems 1 Activities</h3>
+                    <p>Collection of activities made during multimedia class.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+                <div class="subjectCard" data-category="pubmat" onclick="openProjectModal('PLV-VTHK Publication Materials', 'Pubmat', 'Pictures/pubmatsPreview.jpg', 'Collection of pubmats and other graphic materials used in posting and in events of PLV-VTHK.<br><br><b>Role/s:</b> Creatives Officer (2024-2025), Assistant Creatives (2025-2026).', 'https://drive.google.com/drive/folders/1PEXf_ob6r8ux4IGWEOG5vDkK9aMuxw58?usp=drive_link', '#', 'View Edits', '')">
+                    <div class="subjectIcon"><i class="fas fa-bullhorn"></i></div>
+                    <h3>PLV-VTHK Publication Materials</h3>
+                    <p>Collection of pubmats and other graphic materials used in posting and in events of PLV-VTHK.</p>
+                    <span class="inlineLink">More Details &rarr;</span>
+                </div>
+
+            </div>
+
+            <div style="margin-top: 50px;">
+                <a href="index.html#homePage" class="ctaButton outlineBtn">&larr; Return to Main Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="globalMainFooter">
+        <div class="footerInnerContainer">
+            <div class="footerTopRow">
+                <div class="footerColumnBlock leftIdentityText">
+                    <h4>Hello, good day!</h4>
+                    <p>Welcome to my student portfolio, a dedicated space where creative multimedia execution meets modern IT infrastructure. Discover unique interface designs, conceptual photography, and technical milestones from my academic journey.</p>
+                </div>
+                
+                <div class="footerColumnBlock rightQuickLinks">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="aboutMe.html">About Me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="index.html#contactPage">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="footerColumnBlock brandLogoPlacement">
+                    <img src="Pictures/janickaLogoTransparent.png" alt="Janicka Logo Brand" class="footerDynamicLogo">
+                </div>
+            </div>
+
+            <hr class="footerDivider">
+
+            <div class="footerBottomRow">
+                <span class="copyrightLabel">&copy; 2026 Janicka Akim Macam. All rights reserved.</span>
+                <span class="buildStackLabel">Built with Notepad++, HTML5, CSS3, and Vercel.</span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="projectModal" class="portfolio-modal" onclick="closeProjectModal(event)">
+        <div class="modal-box-content" onclick="event.stopPropagation()">
+            <span class="modal-close-x" onclick="closeProjectModal(null)">&times;</span>
+            <div class="modal-split-body">
+                <div class="modal-left-media">
+                    <img id="modalImg" src="" alt="Project Presentation Showcase Image">
+                </div>
+                <div class="modal-right-info">
+                    <h3 id="modalTitle">Project Title</h3>
+                    <span id="modalBadge" class="modal-pill-badge">Category</span>
+                    <p id="modalDesc">Detailed description breakdown displays here...</p>
+                    <div class="modal-action-row">
+                        <a id="modalLinkPrimary" href="#" target="_blank" class="modal-btn primary">Link 1</a>
+                        <a id="modalLinkSecondary" href="#" target="_blank" class="modal-btn secondary-action">Link 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- Filtering Logic ---
+        document.querySelectorAll('.filterBtn').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.filterBtn').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+                document.querySelectorAll('.subjectCard').forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.classList.remove('hideCard');
+                    } else {
+                        card.classList.add('hideCard');
+                    }
+                });
+            });
+        });
+
+        // --- Multi-Button Modal Logic ---
+        function openProjectModal(title, badgeText, imgSrc, description, link1, link2, btnText1, btnText2) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalBadge').innerText = badgeText;
+            document.getElementById('modalImg').src = imgSrc;
+            
+            // Render text with HTML safely allowed for custom body download links
+            document.getElementById('modalDesc').innerHTML = description;
+            
+            // Setup Primary Button
+            const primaryBtn = document.getElementById('modalLinkPrimary');
+            if(link1 === '#' || !link1) {
+                primaryBtn.style.display = 'none';
+            } else {
+                primaryBtn.style.display = 'inline-block';
+                primaryBtn.href = link1;
+                primaryBtn.innerText = btnText1 || 'Visit Project';
+            }
+            
+            // Setup Secondary Button
+            const secondaryBtn = document.getElementById('modalLinkSecondary');
+            if(link2 === '#' || !link2) {
+                secondaryBtn.style.display = 'none';
+            } else {
+                secondaryBtn.style.display = 'inline-block';
+                secondaryBtn.href = link2;
+                secondaryBtn.innerText = btnText2 || 'View Assets';
+            }
+            
+            document.getElementById('projectModal').classList.add('modal-active');
+        }
+
+        // Fixed to ensure background clicking doesn't intercept inner clicks layout parameters
+        function closeProjectModal(event) {
+            // Only close if clicking the background backdrop or the 'X' button explicitly
+            if (!event || event.target.id === 'projectModal' || event.target.classList.contains('modal-close-x')) {
+                document.getElementById('projectModal').classList.remove('modal-active');
+            }
+        }
+    </script>
+
+</body>
+</html>
